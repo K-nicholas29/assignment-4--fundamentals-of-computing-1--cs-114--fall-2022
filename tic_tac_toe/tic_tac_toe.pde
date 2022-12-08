@@ -1,6 +1,7 @@
-void setup() {
-  size(500, 500);
-}
+import java.util.Scanner;
 
-void draw() {
-}
+public class tic_tac_toe
+
+
+
+
