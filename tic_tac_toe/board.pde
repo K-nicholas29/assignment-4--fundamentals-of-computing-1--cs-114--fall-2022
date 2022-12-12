@@ -1,18 +1,14 @@
-void setup() {
-  size(500, 500);
-}
-
-void draw() {
-  background(255);
-
+void board() {
   stroke(0);
-  strokeWeight(3);
+  strokeWeight(5);
 
+  //Two lines above represent the board's vertical lines
   line(166, 0, 166, 500);
   line(333, 0, 333, 500);
-  //Two lines above represent the board's vertical lines
 
+
+  //Second two lines represent the board's horizontal lines
   line(0, 166, 500, 166);
   line(0, 333, 500, 333);
-  //Second two lines represent the board's horizontal lines
+
 }

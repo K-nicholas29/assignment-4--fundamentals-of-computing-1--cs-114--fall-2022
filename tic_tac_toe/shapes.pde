@@ -1,14 +1,11 @@
-void setup() {
-  size(500, 500);
+void computerPiece(int x, int y){
+  line(x*170+17,y*170+17,x*160+160-17,y*160+160-17);
+  line(x*160+160-17, y*170+17, x*170+17, y*160+160-17);
 }
 
-void draw() {
-  background(255);
-
-  circle(100, 100, 100);
-
-  line(100, 100, 100, 100);
-
-  line(100, 100, 100, 100);
-
+void playerPiece(int x, int y){
+  stroke(0);
+  strokeWeight(5);
+  fill(255);
+  ellipse(x*170+80, y*160+90, 135, 135);
 }
